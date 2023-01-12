@@ -112,5 +112,6 @@
         echo "<p>Aqui estou na área PHP, usando instrução PHP.</p>";
         echo "<script>console.log(\"aaaaaa, Aqui eu no PHP, dentro do PHP usando JavaScript\")</script>";
     ?>
+    
 </body>
 </html>
