@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -62,7 +62,7 @@
             </p>
             <strong> ?> </strong>  
             
-            <mark>Saída: </mark>
+            <br><mark>Saída: </mark>
             <p>
                 string is: hello string <br>
                 integer is: 200 <br>
