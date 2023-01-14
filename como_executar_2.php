@@ -30,22 +30,20 @@
             <strong> => início da tag
                 coloca em negrito o que estiver aqui dentro
             </strong> => final da tag
-        */
-        echo "<p>Começa na tag <br><strong>< ?php</strong><br>
-                <br>// ( barra barra ) - é um comentário de uma linha 
-                <br>// e vai ser iginorado pelo interpretador<br></p>";
-
-        echo "<br>echo \"seu programa deve ser colocado entre as Tags 
-                início da tag < ?php (instruções ... Php); ?> fim da tag.\";<br>
-                <br>e Termina na tag <br><strong> ?></strong></p>";        
+        */ 
+        echo "<pre><code>
+        início bloco PHP < ?php
         
-        echo "<p>A instrução <strong> echo </strong> acima entre as tags envia 
-                o texto entre aspas <strong> \"texto\" </strong>
-                para ser exibido na tela:</p>";
+        echo \"Este é um texto que vai aparecer na tela.\";
         
-        echo "<p>Toda instrução PHP termina com ponto-e-vírgula <strong>( ; )</strong>.</p>";
+        fim do bloco PHP ?>
+        
+        A instrução <strong>echo</strong> entre as tags envia
+        o <strong>\"texto\"</strong> entre aspas para ser exibido na tela.
+        Toda instrução PHP termina com ponto-e-vírgula <strong>( ; )</strong>.
+            </code></pre>";
+        
         echo "<hr>";
-
     ?>
 
     <!-- final do bloco de código PHP -->
@@ -56,67 +54,62 @@
         functions, funções definidas pelo usuário, classes não diferenciam maiúsculas de minúsculas.
     </p>
 
-    <div>
-        <h3>Exemplo palavra-chave</h3>
-        <p>No exemplo abaixo, você pode ver que todas 
-            as três instruções de echo são iguais e válidas:
-        </p>
-        
-        <p>
-        < ?php <br>
-            <br>echo "Olá mundo usando echo"; <br>
-            ECHO "Olá mundo que utiliza o ECHO"; <br>
-            EcHo "Olá mundo usando EcHo"; <br>
-        <br>?> <br>
+    <h3>Exemplo palavra-chave</h3>
+    <p>No exemplo abaixo, você pode ver que todas 
+        as três instruções de echo são iguais e válidas:
+    </p>
 
-        <br><mark>saída:</mark>
-        <br>Olá mundo usando echo <br>
-        Olá mundo que utiliza o ECHO<br>
-        Olá mundo usando EcHo <br>
-        </p>
-        
-        <p>Vai exibir na tela o texto entre as aspas sem erros.</p>
-    </div>
+    <pre>
+    <code>
+    < ?php
+        echo "Olá mundo usando echo";
+        ECHO "Olá mundo que utiliza o ECHO";
+        EcHo "Olá mundo usando EcHo";
+    ?>
+    <mark>saída:</mark>
+    Olá mundo usando echo
+    Olá mundo que utiliza o ECHO
+    Olá mundo usando EcHo
+    
+    Vai exibir na tela o texto entre as aspas sem erros.
+    <hr/>
+    </code>
+    </pre>
 
-    <div>
-        <h3>Exemplo variáveis</h3>
-        <p>
-            No entanto, todos os nomes de variáveis diferenciam maiúsculas de minúsculas
-        </p>
-        
-        <p>
-            Veja o exemplo abaixo de que os nomes das variáveis diferenciam maiúsculas de minúsculas.
-        </p>
-        
-        <p>
-            Você pode ver no exemplo abaixo de que somente a segunda instrução 
-            exibirá o valor da variável <strong>$color</strong><br>
-            Porque trata <mark>$color, $ColoR e $COLOR</mark> como três variáveis diferentes:
-        </p>
+    <h3>Exemplo variáveis</h3>
+    <p>
+        No entanto, todos os nomes de variáveis diferenciam maiúsculas de minúsculas
+    </p>
+    
+    <p>
+        Veja o exemplo abaixo de que os nomes das variáveis diferenciam maiúsculas de minúsculas.
+    </p>
+    
+    <p>
+        Você pode ver no exemplo abaixo de que somente a segunda instrução 
+        exibirá o valor da variável <strong>$color</strong><br>
+        Porque trata <mark>$color, $ColoR e $COLOR</mark> como três variáveis diferentes:
+    </p>
 
-        <p>
-            <strong> < ?php</strong><br>
-                
-                <br> // declara variável $color
-                <br>$color = "preto"; <br>
+    <pre>
+    <code>
+    < ?php
+        // declara variável $color
+        $color = "preto";
 
-                <br>// exibir
-                <br>echo "Meu carro é " . $ColoR."; </br>
-                echo "Meu cachorro é " . $color."; </br>
-                echo "Meu telefone é " . $COLOR."; </br>     
-            <br></strong> ?> <br>
-            
-            <br><mark>saída:</mark>
-            <br>Meu cachorro é preto <br>
-        </p>
-        
-        <p>
-            Somente a variável <strong>$color</strong> imprimiu seu valor, e as outras variáveis <br>
-            <mark>$ColoR e $COLOR</mark> são declaradas como variáveis indefinidas <br>
-            Ocorreu um erro na linha 82 e na linha 84.
-        </p>
-    </div>
-    <hr>
+        // exibe resultado
+        echo "Meu carro é " . $ColoR."; 
+        echo "Meu cachorro é " . $color.";
+        echo "Meu telefone é " . $COLOR.";     
+    ?>
+    <mark>saída:</mark>
+    Meu cachorro é preto
 
+    Somente a variável <strong>$color</strong> imprimiu seu valor, e as outras variáveis
+    <mark>$ColoR e $COLOR</mark> são declaradas como variáveis indefinidas.
+    <hr/>
+    </code>
+    </pre>
+    
 </body>
-</html>
+</html> 
