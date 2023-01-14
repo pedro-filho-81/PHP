@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1 align="center">Formulário HTML</h1>
+    <hr>
+    <p>
+        É uma seção de um documento que contém controles como campos de texto, <br/>
+        campos de senha, caixas de seleção, botões de opção, botão de envio, menus etc.
+    </p>
+
+    <p>
+        Um formulário HTML facilita o usuário a inserir dados que devem ser <br/>
+        enviados ao servidor para processamento, como nome, endereço de e-mail, <br/>
+        senha, número de telefone, etc.
+    </p>
+
+    <h2>Por que usar o form HTML</h2>
+
+    <p>
+        Formulários HTML são necessários se você quiser coletar alguns dados do visitante do site.
+    </p>
+
+    <p>
+        Por exemplo: Se um usuário quiser comprar alguns itens na internet, 
+        ele / ela deve preencher o formulário, como endereço de entrega e detalhes do cartão de crédito / débito para que o item possa ser enviado para o endereço fornecido.
+    </p>
+
+    <h3>Sintaxe de formulário HTML</h3>
+
+    <code>
+        &lt;form action="server url" method="get|post"&gt;  
+    </code>
+
+    <h3>O elemento HTml &lt;form&gt;</h3>
+    <p>
+        O elemento fornece uma seção de documento para receber a entrada do <br>
+        usuário. Ele fornece vários controles interativos para enviar <br>
+        informações para o servidor web, como campo de texto, <br>
+        área de texto, campo de senha, etc.
+    </p>
+        
+    <p>
+        <mark>Nota: </mark>O elemento &lt;form&gt; não cria um formulário em si, <br>
+        mas é um contêiner para conter todos os elementos de formulário necessários, <br>
+        como &lt;input&gt; &lt;label&gt;, etc.
+    </p>
+    <hr>
+
+    <h3>O elemento Html &lt;input&gt;</h3>
+
+    <p>
+        O elemento &lt;input&gt; é fundamental do formulário. Ele é usado para criar <br>
+        campos de formulário, para receber informações do usuário. Pode-se aplicar diferentes <br>
+        entradas arquivadas para coletar diferentes informações do usuário do formulário
+    </p>
+    <p>
+        O elemento <mark> input </mark> é o elemento de formulário mais usado. <br/>
+        Ele pode ser exibido de muitas maneiras, tudo depende do atributo que recebe. <br/>
+
+        Se <strong>type="text"></strong> Exibe um campo de entrada de texto de linha única <br/>
+        Se <strong>type="rádio"></strong> Exibe um botão de opção (para selecionar uma das muitas opções) <br/>
+        Se <strong>type="caixa de seleção"></strong>	Exibe uma caixa de seleção (para selecionar zero ou mais de muitas opções) <br/>
+        Se <strong>type="submit"></strong>	Exibe um botão de envio (para enviar o formulário) <br/>
+        Se <strong>type="button"></strong>	Exibe um botão clicável. <br/>
+        E muito mais.
+    </p>
+    <hr>
+
+    <h4>Exemplo:< input type="text"></h4>
+    <p>Exibe um campo de entrada de texto de linha única</p>
+    <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname">
+    </form>
+    <hr>
+
+    <h4>Exemplo: &lt;input type="radio"></h4>
+    <p>Exibe um botão de opção (para selecionar uma das muitas opções)</p>
+    <form>
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">HTML</label><br>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">CSS</label><br>
+        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+        <label for="javascript">JavaScript</label>
+    </form>
+    <hr>
+    
+    <h4>Exemplo: &lt;input type="checkbox"></h4>
+    <p>Define uma caixa de seleção.</p>
+    <form>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> I have a bike</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> I have a car</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3"> I have a boat</label>
+    </form>
+    <hr>
+
+</body>
+</html>
