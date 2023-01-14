@@ -8,18 +8,19 @@
 </head>
 <body>
     <h1>A instrução echo do PHP</h1>
-    <hr>
-
     <p>
-        A instrução <strong>echo</strong> é uma construção da linguagem, não é uma função,<br>
+        A instrução <strong>echo</strong> é uma construção da linguagem, 
+        não é uma função,<br>
         então não precisa usar parênteses com ele. <br>
         Entretanto, se quiser usar mais de um parâmetro, 
         então é necessário usar parênteses.
     </p>
+    <hr>
 
     <h2>A sintaxe echo</h2>
-
-    <p><mark>void echo ( string $arg 1 [, string $... ] )</mark></p>
+    <p>
+        <mark>void echo ( string $arg 1 [, string $... ] )</mark>
+    </p>
 
     <p>
         A instrução echo pode ser usada para imprimir uma string simples, <br>
@@ -33,57 +34,46 @@
     <p>- Pode-se passar várias cadeias separadas por uma vírgula (,) em echo.</p> 
     <p>echo é mais rápido do que a instrução print.</p> 
     <hr>
-
-    <div id="echo1">
-        <h4>Exemplo: echo1.php</h4> 
-
-        <strong>< ? .php </strong><br>
-        <p>echo "Olá por PHP echo";</p>
-        <p><strong> ?> </strong></p>  
-        
-        <p>
-            <mark>Saída:</mark>
-            Olá por PHP echo
-        </p>
-    </div>
+  
+    <h4>Exemplo: echo1.php</h4>
+    <pre>
+    <code>
+    <strong>< ? .php </strong>
+        echo "Olá por PHP echo";
+    <strong> ?> </strong>
+    <mark>Saída:</mark>
+    Olá por PHP echo
     <hr>
 
-    <div id="echo2">
-        <h4>Exemplo: echo2.php</h4>
-        <p>echo imprimindo sequência de caracteres de várias linhas</p>
-        
-        <strong>< ? .php</strong>
-        <p>
+    <h4>Exemplo: echo2.php</h4>
+    <pre>
+    <code>
+    <strong>< ? .php</strong>
             echo "Olá por echo
-            <br>esta é uma linha múltipla
-            <br>texto impresso pela
-            <br>Instrução de echo.
-            <br>";  
-        </p>
-
-        <strong> ?></strong>  
-        
-        <p>
-            <mark>Sída: </mark>
-            Olá por echo esta é uma linha múltipla texto impresso pela Instrução de echo.
-        </p>
-    </div>
+            esta é uma linha múltipla
+            texto impresso pela
+            Instrução de echo.";
+    <strong> ?></strong>  
+    <mark>Saída: </mark>
+    Olá por echo esta é uma linha múltipla texto impresso pela Instrução de echo.        
+    </code>
+    </pre>
+    <p>echo imprimindo sequência de caracteres de várias linhas</p>
     <hr>
 
-    <div id="echo3">
-        <h4>Exemplo: echo3.php</h4>
-        <p>echo imprimindo caracteres de escape.</p>
+    <h4>Exemplo: echo3.php</h4>
+    <p>echo imprimindo caracteres de escape.</p>
 
-        <strong>< ? .php</strong><br>
+    <strong>< ? .php</strong><br>
 
-        <p>echo "Olá escape \"sequence\" caracteres";</p>
-        
-        <strong> ?></strong>
-        
-        <p>
-            <mark>Saída: </mark>
-            Olá escape \"sequence\" caracteres
-        </p>
+    <p>echo "Olá escape \"sequence\" caracteres";</p>
+    
+    <strong> ?></strong>
+    
+    <p>
+        <mark>Saída: </mark>
+        Olá escape \"sequence\" caracteres
+    </p>
 
     </div>
     <hr>
