@@ -26,14 +26,5 @@
         echo "<p><mark>Nota: </mark> Ao contrário das variáveis, as constantes são automaticamente globais em todo o script.</p>";
         echo "<hr>";
     ?>
-    <hr>
-
-    <h4>Exemplo 1</h4>
-    <?php
-        const VALOR = 5;
-        echo VALOR;
-    ?>
-    <hr>
-
 </body>
 </html>
