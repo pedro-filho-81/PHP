@@ -1,0 +1,21 @@
+body {
+    background-color: blue ;
+    color: white;
+    font-size: 13pt;
+}
+h1 {
+    text-align: center;
+}
+mark {
+    background-color: white;
+    color: red;
+}
+strong {
+    background-color: white;
+    color: black;
+}
+pre {
+ background-color: whitesmoke;
+ color: blue;
+ font-size: 13pt;
+}
