@@ -5,7 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Variáveis PHP</title>
-    
+    <style>
+                body {
+            background-color: blue ;
+            color: white;
+            font-size: 13pt;
+        }
+        h1 {
+            text-align: center;
+        }
+        mark {
+            background-color: white;
+            color: red;
+        }
+        strong {
+            background-color: white;
+            color: black;
+        }
+        pre {
+        background-color: whitesmoke;
+        color: blue;
+        font-size: 13pt;
+        }
+    </style>
 </head>
 <body>
     <h1 align='center'>Variáveis PHP</h1>
