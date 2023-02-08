@@ -69,8 +69,37 @@
       </tr>
    </table>
    <hr>
-   
-   <h2>Exemplo dos operadores aritiméticos com PHP</h2>
+
+   <h2>Exemplo do Programa PHP</h2>
+   <pre>
+   &lt;?php
+      // cria variáveis
+      $x = 10; // assign 10 to x
+      $y = 6; // assign 6 to y
+      $sum = $x + $y; // soma
+      $differece = $x - $y; // diferença
+      $product = $x * $y; // produto
+      $division = $x / $y; // divisão
+      $remainder = $x % $y; // resto da divisão 
+      $exponentiation = $x ** $y; // exponenciação
+
+      // resultado
+      echo "&lt;p>Soma $x + $y é igual a $sum&lt;/p>";
+
+      echo "&lt;p>Diferença $x - $y é igual a " . $x - $y . ".&lt;/p>";
+
+      echo "&lt;p>O produto entre $x e $y é igual a " . ($x * $y), " .&lt;/p>";
+
+      echo "&lt;p>O quociente entre $x e $y é igual a " . ($x / $y) . " .&lt;/p>";
+
+      echo "&lt;p>O resto da divisão entre $x e $y é igual a ", ($x % $y), " .&lt;/p>";
+
+      echo "&lt;p>O valor de $x elevado a $y é igual a ", ($x ** $y), " .&lt;/p>";
+   ?>
+   </pre>
+   <hr>
+
+   <h2>Resultado do Programa PHP</h2>
    
    <p>Calculos usando os operadores Aritiméticos</p>
    
@@ -79,25 +108,31 @@
    <!-- AQUI Um PROGRAmA USANDO PHP -->
    <?php
       // cria variáveis
-      $x = 10;
-      $y = 6;
-      
+      $x = 10; // assign 10 to x
+      $y = 6; // assign 6 to y
+      $sum = $x + $y; // soma
+      $differece = $x - $y; // diferença
+      $product = $x * $y; // produto
+      $division = $x / $y; // divisão
+      $remainder = $x % $y; // resto da divisão 
+      $exponentiation = $x ** $y; // exponenciação
+
       // resultado
-      echo "<p>Soma $x + $y é igual a " . ($x + $y) . ".</p>";
+      echo "<p>Soma $x + $y é igual a $sum</p>";
 
       echo "<p>Diferença $x - $y é igual a " . $x - $y . ".</p>";
-/*
-      echo "<p>O produto entre $x e $y é igual a $x * $y</p>";
 
-      echo "<p>O quociente entre $x e $y é igual a $x / $y</p>";
+      echo "<p>O produto entre $x e $y é igual a " . ($x * $y) . "</p>";
 
-      echo "<p>O resto da divisão entre $x e $y é igual a $x % $y</p>";
+      echo "<p>O quociente entre $x e $y é igual a " . ($x / $y) . " .</p>";
 
-      echo "<p>O valor de $x elevado a $y é igual a $x ** $y</p>";
-   */
+      echo "<p>O resto da divisão entre $x e $y é igual a ", ($x % $y), " .</p>";
+
+      echo "<p>O valor de $x elevado a $y é igual a ", ($x ** $y), " .</p>";
    ?>
-
    <hr>
+
+   
    <h2>Como Criar Bordas Na Tabela Com CSS</h2>
 
    <p>Para adicionar uma borda na tabela, use a propriedade CSS <mark>border</mark>;</p>
@@ -129,6 +164,7 @@
       <strong><mark>border</mark> 1px solid black;</strong>
       <strong><mark>border-radius</mark> 10px;</strong>
    } </pre>
+   <hr>
 
 </body>
 </html>
