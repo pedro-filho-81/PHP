@@ -14,6 +14,8 @@
 
    <p>O operador de atribuição básica no PHP é <mark>" = "</mark>. Isso significa que o operando esquerdo é definido pelo valor da expressão de atribuição à direita.</p>
 
+   <p>Dado o valor para a variável $x = 10 e $y = 6, calcule:</p>
+
    <!-- CRIA A TABELA DOS OPERADORES DE ATRIBUIÇÃO -->
    <table>
       <caption>ASSIGNmENT OPERATORES</caption>
