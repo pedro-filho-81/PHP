@@ -131,40 +131,6 @@
       echo "<p>O valor de $x elevado a $y é igual a ", ($x ** $y), " .</p>";
    ?>
    <hr>
-
    
-   <h2>Como Criar Bordas Na Tabela Com CSS</h2>
-
-   <p>Para adicionar uma borda na tabela, use a propriedade CSS <mark>border</mark>;</p>
-   <pre>
-   table, th, td {
-      <strong><mark>border</mark>: 1px solid black;</strong>
-   } </pre>
-
-   <p>Para evitar bordas duplas, defina a propriedade CSS: <strong><mark>border-collapse</mark>: como <mark>collapse</mark></strong></p>
-   <pre>
-   table, th, td {
-      <strong><mark>border</mark> 1px solid black;</strong>
-      <strong><mark>border-collapse</mark> collapse;</strong>
-   }</pre>
-
-   <p>Se você definir uma cor de plano de fundo de cada célula, e dê à borda uma cor branca, você tem a impressão de uma borda invisível:</p>
-   <pre>
-   table, th, td {
-      <strong><mark>border</mark> 1px solid white;</strong>
-      <strong><mark>border-collapse</mark> collapse;</strong>
-   }
-   th, td {
-      <strong><mark>background-color</mark> # 96D4D4;</strong>
-   }</pre>
-
-   <p>Com a propriedade CSS <mark>border-radius</mark>, as bordas ficam arredondadas pelos cantos:</p>
-   <pre>
-   table, th, td {
-      <strong><mark>border</mark> 1px solid black;</strong>
-      <strong><mark>border-radius</mark> 10px;</strong>
-   } </pre>
-   <hr>
-
 </body>
 </html>
