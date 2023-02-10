@@ -91,14 +91,54 @@
          <td class="opera">Spaceship</td>
          <td>$x <=> $y</td>
          <td>Returns an integer less than, equal to, or greater than zero, depending on if $x is less than, equal to, or greater than $y. Introduced in PHP 7.</td>
-         <td class="opera">v</td>
+         <td class="opera">verdadeiro</td>
       </tr>
    </table>
+   <hr>
+   
+   <h2>O Operador  Ternário <mark>( ? : )</mark></h2>
+      
+   <p>O operador condicional ternário no PHP é usado para retornar um valor dependendo da condição na expressão.</p>
+
+   <pre>
+      Exemplo:
+      <strong>(se $x maior que $y) ? '<mark>verdadeiro</mark>' : '<mark>falso</mark>';</strong>
+      se x maior que y 
+      retorne verdadeiro 
+      se não 
+      retorne falso.</pre>
+
+   <p>Dados os valores $x = 10; $y = 6; verifique se é verdadeiro ou falso a comparação:</p>
+
+   <table class="ternario">
+      <caption>OPERADOR CONDICIONAL TERNÁRIO (? :) </caption>
+      <tr>   
+         <th>Operator</th>
+         <th>Name</th>
+         <th>Example</th>
+         <th>Result</th>
+      </tr>
+      <tr>
+         <td class="opera">? :</td>
+         <td>Ternary</td>
+         <td>$x = ($x >= $y) ? true : false;</td>
+         <td class="opera">true</td>
+      </tr>
+   </table>
+   <ul class="ternario">
+      <li>Returns the value of $x.</li>
+      <li>The value of $x is true if ($x >= $y) = TRUE.</li>
+      <li>The value of $x is false if ($x <= $y) = FALSE.</li>
+   </ul>
    <hr>
 
    <h2>Programa em PHP com os operadores de comparação</h2>
    
    <p>Dados os valores $x = 10; $y = 6; verifique se é verdadeiro ou falso a comparação:</p>
+
+   <P>O programa PHP usa o operador  condicional ternário, que retorna verdadeiro ou falso, dependento do operador de comparação.</P>
+
+   <p><mark>OBS :</mark> O operador ternário no programa não é necessário, pois, <br>o retorno é true ou false quando se usa o operador de comparação.</p>
    <pre>
    &lt;?php
       // variáveis
@@ -108,22 +148,31 @@
       // exibir resultado
       echo '&lt;p class="resp">IGUAL - $x <mark>==</mark> $y? ' . 
       ( $x == $y ? "verdadeiro" : "falso") . '&lt;/p>';
+      
       echo '&lt;p class="resp">IDÊNTICO - $x <mark>===</mark> $y? ' . 
       ( $x === $y ? "verdadeiro" : "falso") . '&lt;/p>';
+
       echo '&lt;p class="resp">DIFERENTE - $x <mark>!=</mark> $y? ' . 
       ( $x != $y ? "verdadeiro" : "falso") . '&lt;/p>';
+      
       echo '&lt;p class="resp">DIFERENTE - $x <mark><></mark> $y? ' . 
       ( $x <> $y ? "verdadeiro" : "falso") . '&lt;/p>';
+      
       echo '&lt;p class="resp">NÃO IDÊNTICO - $x  $y<mark>!==</mark>? ' . 
       ( $x !== $y ? "verdadeiro" : "falso") . '&lt;/p>';
+      
       echo '&lt;p class="resp">MAIOR QUE - $x <mark> > </mark> $y? ' . 
       ( $x > $y ? "verdadeiro" : "falso") . '&lt;/p>';
+      
       echo '&lt;p class="resp">MENOR QUE - $x <mark> < </mark> $y? ' . 
       ( $x < $y ? "verdadeiro" : "falso") . '&lt;/p>';
+      
       echo '&lt;p class="resp">MAIOR OU IGUAL - $x <mark> >= </mark> $y? ' . 
       ( $x >= $y ? "verdadeiro" : "falso") . '&lt;/p>';
+      
       echo '&lt;p class="resp">MENOR OU IGUAL - $x <mark> <= </mark> $y? ' . 
       ( $x <= $y ? "verdadeiro" : "falso") . '&lt;/p>';
+      
       echo '&lt;p class="resp">NAVE ESPACIAL - $x <mark> <=> </mark> $y? ' . 
       ( $x &lt;=&gt; $y ? "verdadeiro" : "falso") . '&lt;/p>';
    ?>
