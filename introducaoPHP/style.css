@@ -10,6 +10,12 @@
    }
    p {
       font-size: 15pt;
+      margin-left: 80pt;
+      margin-right: 100pt;
+   }
+   b {
+      background-color: white;
+      color: rgb(255, 0, 191);
    }
    pre {
       background-color: rgb(226, 221, 214);
@@ -49,9 +55,10 @@
    td.opera { /*modifica a classe na TABEL DATA*/
       text-align: center; /*alinha o texto no centro da célula*/
    }
-   p.resp {
+   li {
       background-color: white;
       color: black;
-      margin-left: 150px;
-      margin-right: 150px;
+      padding: 5pt 5pt 5pt 5pt;
+      margin-left: 50pt;
+      margin-right: 100pt;
    }
