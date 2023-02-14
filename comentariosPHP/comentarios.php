@@ -5,53 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Comentários PHP</title>
-    <link rel="stylesheet" href="javascript.css">
-    <style>                
-        body {
-            background-color: rgb(61, 61, 226);
-            color: white;
-        }
-        h1, h2 {
-            text-align: center;
-        }
-        p {
-            font-family: Arial;
-            font-size: 15pt;
-        }
-        pre {
-            background-color: rgb(226, 221, 214);
-            color: blue;
-            font-size: 15pt;
-            font-family: 'Arial';
-        }
-        strong {
-            background-color: white;
-            color: black;
-        }
-        mark {
-            background-color: rgb(255, 255, 255);
-            color: red;
-        }
-        code {
-            background-color: yellow;
-            color: black;
-        }
-        table, th, td {
-            font-size: 20pt; /* tamanho da fonte*/
-            border: 1px solid black; /* borbda */
-            border-collapse: collapse;
-        }
-        caption {
-            background-color: yellow;
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 15pt;
-            color: black;
-        }
-        th, td {
-            background-color: #b9dbdb;
-            color: black;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1 align='center'>Comentários PHP</h1>
