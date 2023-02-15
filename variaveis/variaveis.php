@@ -36,7 +36,7 @@
 
    <h2>Variáveis PHP</h2>
 
-   <p>Uma variável pode ter um nome curto (como x e y) ou um nome mais descritivo (idade, carname, total_volume).</p>
+   <p>Uma variável pode ter um nome curto (como <b>x</b> e <b>y</b>) ou um nome mais descritivo (<b>idade</b>, <b>carname</b>, <b>total_volume</b>).</p>
 
    <h3>Regras para variáveis PHP:</h3>
 
@@ -70,7 +70,7 @@
    <b>&lt;?php</b>
    $txt = <b>"W3Schools.com"</b> ;
    echo <b>"I love "</b> . $txt . <b>"!"</b>;
-   ?></pre>
+   <b>?></b></pre>
    <hr>
 
    <p>O exemplo a seguir produzirá a soma de duas variáveis:</p>
@@ -83,5 +83,13 @@
    <b>?></b></pre>
    <hr>
 
-</body>
+   <h2>PHP é uma linguagem vagamente tipada</h2>
+
+   <p>No exemplo acima, observe que não tivemos que dizer ao PHP qual tipo de dados da variável é.</p>
+
+   <p>O PHP associa automaticamente um tipo de dados à variável, dependendo do seu valor. Como os tipos de dados não são definidos em sentido estrito, você pode fazer coisas como adicionando uma cadeia de caracteres a um inteiro sem causar um erro.</p>
+
+   <p>A partir do PHP 7, declarações de tipo foram adicionadas. Isso dá uma opção para especificar o tipo de dados esperado ao declarar uma função e, ao habilitar o requisito estrito, ele lançará um " <b>Fatal Erro</b>" em uma incompatibilidade de tipos.</p>
+   <hr>
+
 </html>
