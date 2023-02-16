@@ -55,7 +55,7 @@
    
       myTest(); // cha
 
-      echo "<p>A Variável x fora da função vale: <b>$x</b> <p>";
+      echo " <p>A Variável x fora da função vale: <b>$x</b> <p>";
    ?>
    <hr>
 
