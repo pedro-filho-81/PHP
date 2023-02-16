@@ -14,7 +14,7 @@
       print "<h1>Instrução print PHP</h1>";
       print "<h2>Sintax print</h2>";
       
-      print "<p>Print é uma construção de linguagem, não uma função. <br> Portanto, você não precisa usar parênteses com ele também.</p>";
+      print "<p>Print é uma construção de linguagem, não uma função. Portanto, você não precisa usar parênteses com ele também.</p>";
       
       print "<p><mark>int print(string \$arg )</mark></p>";
       
