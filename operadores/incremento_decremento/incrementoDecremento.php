@@ -59,20 +59,20 @@
       // variável
       <mark>$x</mark> = 10; // assign 10 to x
       // resultado
-      echo '&lt;p>Pré-incremento: <mark>++$x</mark> adiciona 1 a variável <mark>$x antes</mark> dela ser "chamada",
-       X vale ' . ++$x . '&lt;/p>';
+      echo '&lt;<b>p</b>>Pré-incremento: <mark>++$x</mark> adiciona 1 a variável <mark>$x antes</mark> dela ser "chamada",
+       X vale ' . ++$x . '&lt;/<b>p</b>>';
       
       <mark>$x</mark> = 10; // assign 10 to x
-      echo '&lt;p>Pós-incremento: <mark>$x++</mark> adiciona 1 a variável <mark>$x depois</mark> dela ser "chamada",
-       X vale ' . $x++ . '&lt;/p>';
+      echo '&lt;<b>p</b>>Pós-incremento: <mark>$x++</mark> adiciona 1 a variável <mark>$x depois</mark> dela ser "chamada",
+       X vale ' . $x++ . '&lt;/<b>p</b>>';
       
       <mark>$x</mark> = 10; // assign 10 to x
-      echo '&lt;p>Pré-decremento: <mark>--$x</mark> retira 1 da variável <mark>$x antes</mark> dela ser "chamada",
-       X vale ' . --$x . '&lt;/p>';
+      echo '&lt;<b>p</b>>Pré-decremento: <mark>--$x</mark> retira 1 da variável <mark>$x antes</mark> dela ser "chamada",
+       X vale ' . --$x . '&lt;/<b>p</b>>';
       
       <mark>$x</mark> = 10; // assign 10 to x
-      echo '&lt;p>Pós-decremento: <mark>$x--</mark> retira 1 da variável <mark>$x depois</mark> dela ser "chamada",
-       X vale ' . $x-- . '&lt;/p>';
+      echo '&lt;<b>p</b>>Pós-decremento: <mark>$x--</mark> retira 1 da variável <mark>$x depois</mark> dela ser "chamada",
+       X vale ' . $x-- . '&lt;/<b>p</b>>';
    ?></pre>
    <hr>
 
