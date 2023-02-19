@@ -8,10 +8,20 @@
    h1, h2 {
       text-align: center;
    }
+   p {
+      font-size: 15pt;
+      margin-left: 100pt;
+      margin-right: 100pt;
+   }
+   b {
+      color: rgb(205, 52, 203);
+   }
    pre {
       background-color: rgb(226, 221, 214);
       color: blue;
       font-family: Arial, Helvetica, sans-serif;
+      margin-left: 100px;
+      margin-right: 100px;
    }
    strong {
       background-color: white;
@@ -25,10 +35,11 @@
       background-color: yellow;
       color: black;
    }
-   table, th, td {
+   table {
       font-size: 18pt; /* tamanho da fonte*/
       border: 1px solid black; /* adiciona borbda a tabela */
       border-collapse: collapse; /* une as bordas da tabela */
+      width: 100%;
    }
    caption {
       background-color: yellow; /*coloca cor no fundo*/
