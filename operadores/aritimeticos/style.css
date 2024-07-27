@@ -4,25 +4,31 @@
 body {
    background-color: rgb(61, 61, 226);
    color: white;
+   width: 80%;
+   margin: auto;
 }
 h1, h2 {
    text-align: center;
 }
 p {
+   text-align: justify;
    font-size: 15pt;
-   margin-left: 100pt;
-   margin-right: 100pt;
+   width: 80%;
 }
+
 b {
    color: rgb(205, 52, 203);
 }
+
 pre {
    background-color: rgb(226, 221, 214);
    color: blue;
    font-family: Arial, Helvetica, sans-serif;
-   margin-left: 100px;
-   margin-right: 100px;
+   font-size: 18px;
+   margin-left: 10px;
+   margin-right: 10px;
 }
+
 strong {
    background-color: white;
    color: black;
@@ -50,7 +56,7 @@ caption {
 th, td {
    background-color: #b9dbdb;
    color: black;
-   padding: 5px 5px 5px 5px;/*preenchimento das células*/
+   padding: 5px;/*preenchimento das células*/
    margin: 100%; /*usa 100% das margens*/
 }
 td.opera { /*modifica a classe na TABEL DATA*/
